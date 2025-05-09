@@ -11,7 +11,7 @@ O arquivo deve seguir a seguinte estrutura:
 - **Demais linhas:** cada linha representa um **estado**, onde:
   - A **coluna 1** indica o **estado de destino** ao receber o símbolo `'a'`.
   - A **coluna 2** indica o **estado de destino** ao receber o símbolo `'b'`.
-  - Se houver mais símbolos no alfabeto, as colunas subsequentes representam as transições desses símbolos, conforme a ordem alfabética.
+  - Se houver mais símbolos no alfabeto, as colunas subsequentes representam as transições desses símbolos.
 
 ### Exemplo
 
