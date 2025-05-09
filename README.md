@@ -7,7 +7,7 @@ O autômato finito determinístico (AFD) utilizado neste projeto é definido por
 
 O arquivo deve seguir a seguinte estrutura:
 
-- **Linha 1:** representa o **conjunto de estados finais**. Cada número separado por espaço representa o índice de um estado final.
+- **Linha 1:** representa o **conjunto de estados finais**. Cada número separado por ´;´ representa o índice de um estado final.
 - **Demais linhas:** cada linha representa um **estado**, onde:
   - A **coluna 1** indica o **estado de destino** ao receber o símbolo `'a'`.
   - A **coluna 2** indica o **estado de destino** ao receber o símbolo `'b'`.
@@ -15,7 +15,7 @@ O arquivo deve seguir a seguinte estrutura:
 
 ### Exemplo
 
-Considerando o seguinte conteúdo de um arquivo `Automato1.csv`:
+Considerando o autômato: `Automato1.csv`:
 
 Temos:
 
@@ -31,7 +31,5 @@ As transições são:
 - Estado 1: `'a' → 3`, `'b' → 2`
 - Estado 2: `'a' → 1`, `'b' → 3`
 - Estado 3: `'a' → 3`, `'b' → 3`
-
-### Observações
 
 
