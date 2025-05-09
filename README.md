@@ -17,11 +17,11 @@ O arquivo deve seguir a seguinte estrutura:
 
 Considerando o seguinte conteúdo de um arquivo `.csv`:
 
-3
-1;2
-3;2
-1;3
-3;3
+- 3.
+- 1;2.
+- 3;2.
+- 1;3.
+- 3;3.
 
 Temos:
 
@@ -40,6 +40,4 @@ As transições são:
 
 ### Observações
 
-- Os estados são indexados numericamente a partir de `0`.
-- A leitura das transições ocorre linha a linha, e cada transição deve estar no formato `x;y`, onde `x` e `y` são os estados de destino para os símbolos definidos.
-- O autômato é **determinístico**, ou seja, para cada estado e símbolo do alfabeto, existe **apenas uma** transição possível.
+
