@@ -16,12 +16,11 @@ O arquivo deve seguir a seguinte estrutura:
 ### Exemplo
 
 Considerando o seguinte conteúdo de um arquivo `.csv`:
-
- 3.
- 1;2.
- 3;2.
- 1;3.
- 3;3.
+3.
+1;2.
+3;2.
+1;3.
+3;3.
 
 Temos:
 
